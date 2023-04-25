@@ -1,0 +1,24 @@
+First, let me applaud the tone and honesty of your post and argument. I see no reason whatsoever that anyone should take my word for anything, I only hope that people will listen to my ideas. So please don't feel bad for calling me out to defend them. We all learn from our mistakes when others can show us someting better.
+
+However, 😉
+I am usually careful to say alongside this kind of comment that I have no problem with code-review, I am a fan for the reasons that you state. They can help us to spot mistakes, correct them, and learn from others, but in my view, while a Pull Request is better than no code review, it is also the worst form of code review in practice. So we are here talking of different grades of "better" rather than "dispicable vs angelic".
+
+Let us get a minor quibble out of the way first, by talking about "Trust" I mean a spectrum of things. This is not only that we don't "trust" the submitter to be trying something evil and dangerous, but also that they may be simply mistaken, got a different plan in mind to the revewier, or lack the experience to see something important. These are all examples of "trust" too, and that is what I mean when I say that PRs were invented to guard against people that we don't know well enough to trust their work to the extent that we give them the freedom to commit their changes unreviewed.
+
+Back to the quality of review...
+
+I like pair programming best, though my one experience of Mob programming was an interesting and enlightening one: https://youtu.be/ikilHGYk5Fs
+There are many reasons that I like pair programming, but purely from the quality of review, working as a pair gives me everything that the best kind of code review gives me, except it gives me that more of the time, and it gives me many more things too. I get consistent, detailed, feedback on not just my code, but my thinking too. We, as a pair, produce better results (the data from accademic research while not compelling, is pretty consistent on that) and we are nearly, but not quite as productive per person as if we worked independently (also from accademic studies - a pair usually finishes in 60% the time of 2 individuals). If you combine the quality of the output, and so the reduction in bug fixing that would follow from more mistakes, and the efficiency of working in better code bases, then I strongly believe, but with no research evidence to back me, that pairing is more efficient, and provides a better code review.
+
+The reason that I think PR is the worst form of review, is because it is designed to be an async review. If you review my code via PR, I get only written feedback. It isn't interactive, it may be wrong, and so on. For a real code review we can at least debate ideas and learn from one another. Sure, we could organise to meet to discuss the PR, but is that really a Pull Request now, or just a mechanism for booking an appointment for a proper code-review?
+
+Finally, I don't proscribe that everyone must pair all the time. I say that in my experience pairing is what works best. Even in the teams where we paired by default all the time, there would be people who needed some time to work alone, tasks that made more sense working alone and so on.
+
+If I am honest, and I like to try to say what I think, then I see the nervousness that some people express about pair programming as a handicap for them. I don't think less of them as people, but I do think that it plces limits on their contribution. 
+I don't say that everyone MUST PAIR all the time, but I do think that people who don't generally produce worse work than if they did, and are, at least in a team that practices pairing, less part of the team. Now this handicap is not necessarily a problem. Their work may still be good, their contribution to the team may still be valuable, but I think that they are working in a more limited way. I broke my right arm in a skiing accident once. I was handicapped, I couldn't type as well as before, but I could still do useful work, and, as it happened, I could still contribute to a pair. So though my contribution was lessened, it wasn't nothing, and it was still a useful contribution.
+
+I have worked on full "always-pair" teams who had individuals who didn't always pair. So we need to be pragmatic, adaptable and tollerant of other people. I wrote this blog post about "Pair Programming for Introverts" some years ago: https://www.davefarley.net/?p=267
+
+
+
+
